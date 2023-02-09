@@ -31,8 +31,9 @@ let janji = new Promise(
     }
 )
 
-// let varpromise = new Promise( (resolve,reject)=>{})
+let varpromise = new Promise( (resolve,reject)=>{})
 
+// contoh penggunaan
 janji
     .then((result)=>{console.log(`success - `,result)})
     .catch((error)=>{console.log(`error - `,error)})
